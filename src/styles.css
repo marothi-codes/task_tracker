@@ -68,7 +68,7 @@ body {
 }
 
 .form-control-check {
-  display: fkex;
+  display: flex;
   align-items: center;
   justify-content: space-between;
 }
