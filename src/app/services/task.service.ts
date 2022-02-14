@@ -24,6 +24,10 @@ export class TaskService {
     return this.http.get<Task[]>(this.apiUrl);
   }
 
+  postTask(task: Task): Observable<Task> {
+    return this.http.post<Task>(this.apiUrl,task, this.httpOptions);
+  }
+
   patchTask(task: Task): Observable<Task> {
     return this.http.patch<Task>(`${this.apiUrl}/${task.id}`,
       { reminder: task.reminder },

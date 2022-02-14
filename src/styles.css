@@ -47,10 +47,6 @@ body {
   width: 100%;
 }
 
-.add-form {
-  margin-bottom: 40px;
-}
-
 .form-control {
   margin: 20px 0;
 }
@@ -69,8 +65,7 @@ body {
 
 .form-control-check {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .form-control-check label {
